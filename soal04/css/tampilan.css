@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 40px;
+    background-color: darkcyan;
+    color: yellow;
+}
+footer{
+    width: 100%;
+    height: 40px;
+    bottom: 0;
+    position: fixed;
+    background-color: darkcyan;
+    text-align: center;
+}
+.title-header h3{
+    font-size: 26px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.footer-title h3 a{
+    font-size: 13px;
+    padding: 9px;
+    color: rgb(211, 205, 195);
+}
+.content-utama{
+    width: 100%;
+    height: 870px;
+}
+.content-left{
+    float: left;
+}
+.content-left h3{
+    margin-left: 70px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+.content-right{
+    float: right;
+}
+.content-right button{
+    margin-top: 20px;
+    margin-right: 90px;
+    text-align: center;
+    color: aliceblue;
+}
+.btn-pokemon{
+    background-color: rgb(36, 54, 54);
+    text-decoration: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.content-td{
+    position: absolute;
+    margin: 70px;
+    width: 90%;
+    padding-bottom: 30px;
+    height: auto;
+    background-color: rgba(211, 210, 208, 0.178);
+}
+.td01{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 30%;
+    height: 300px;
+    border: 2px solid;
+}
+.td02{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 410px;
+    width: 30%;
+    height: 300px;
+    border: 2px solid;
+}
+.td03{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 830px;
+    width: 30%;
+    height: 300px;
+    border: 2px solid;
+}
